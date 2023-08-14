@@ -91,18 +91,19 @@ const textIsValid = () => {
 
 const lockTextArea = (el) => {
   const checkbox = el.target;
-  if (checkbox.checked) {
-    textArea.setAttribute("readonly", true);
+  if (checkbox.checked === false) {
+  textArea.removeAttribute("readonly");
   } else {
-    textArea.removeAttribute("readonly");
+    textArea.setAttribute("readonly", true);
   }
 };
 
 const resetTextArea = () => {
   textArea.value = originalText;
   input.value = "";
-  textArea.removeAttribute("readonly");
-  lock.checked = false;
+  textArea.setAttribute("readonly", true);
+  lock.checked = true;
+  input.focus();
 };
 
 const pressEnter = () => {
@@ -116,3 +117,5 @@ input.addEventListener("keypress", pressEnter);
 submit.addEventListener("click", generateName);
 lock.addEventListener("click", lockTextArea);
 reset.addEventListener("click", resetTextArea);
+
+input.focus();
