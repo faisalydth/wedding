@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wedding Message | Stella & Faisal</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5661195cd6.js" crossorigin="anonymous"></script>
+    <style>
+      body {
+        background-image: url('assets/img/BackgroundImage.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;  
+        background-size: cover;
+      }
+      </style>
+  </head>
+  <body>
+    <div class="ctn-out">
+      <h1>Wedding Message</h1>
+      <h2>Stella & Faisal</h2>
+      
+      <div class="ctn-row">
+        <label for="name-input"></label>
+        <input
+        id="name-input"
+        type="text"
+        name="name"
+        placeholder="Your invitation name here"
+      />
+      <button id="submit" type="button">Send</button>
+      <button id="reset" type="button">Reset</button>
+    </div>
+
+    <div class="ctn-lock">
+      <input type="checkbox" name="lock" id="lock" />    
+      <label id="lock-label" for="lock">Lock Message</label>  
+    </div>
+
+  
+      <textarea name="text" id="" cols="60" rows="40">
+Bismillahirrahmanirrahim
+Assalamu'alaikum Wr. Wb.
+
+Yth. Bpk/Ibu/Sdr/i
+{NAMA},
+
+Dengan mengharap ridho dan rahmat Allah SWT, serta tanpa mengurangi rasa hormat, perkenankan kami mengundang Bpk/Ibu/Sdr/i untuk hadir di acara pernikahan kami pada :
+
+Hari, tanggal : Sabtu, 02 September 2023
+Pukul : 11.00 - 13.00
+Lokasi : Hotel Kartika Abadi - Jl. Pahlawan, Pangongangan, Kec. Manguharjo, Kota Madiun
+
+Untuk detail acara pernikahan kami dapat dilihat pada link berikut ini :
+{LINK}
+
+Suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami. Kami memohon maaf apabila tidak dapat mengirimkan undangan ini secara langsung karena adanya keterbatasan jarak dan waktu.
+
+Atas waktu dan perhatiannya, kami ucapkan terima kasih.  
+
+Wassalamualaikum Wr. Wb.
+
+With Love,
+Stella & Faisal</textarea
+      >
+  
+      <a
+        id="whatsapp"
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label="Chat on WhatsApp"
+        href="https://api.whatsapp.com/send/?text="
+      >
+        </a
+      >
+      <div class="ctn-credit">
+        <p id="credit">
+          Created by Farrel Yudithia
+          on collaboration with Faisal Yudithia</p>
+      </div>
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
