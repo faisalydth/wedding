@@ -10,25 +10,25 @@ const originalText = `Bismillahirrahmanirrahim
 Assalamu'alaikum Wr. Wb.
 
 Yth. Bpk/Ibu/Sdr/i
-{NAMA},
+*{NAMA}*,
 
 Dengan mengharap ridho dan rahmat Allah SWT, serta tanpa mengurangi rasa hormat, perkenankan kami mengundang Bpk/Ibu/Sdr/i untuk hadir di acara pernikahan kami pada :
 
 Hari, tanggal : Sabtu, 02 September 2023
-Pukul : 11.00 - 13.00
+Pukul : 11.00 - 13.00 WIB
 Lokasi : Hotel Kartika Abadi - Jl. Pahlawan, Pangongangan, Kec. Manguharjo, Kota Madiun
 
 Untuk detail acara pernikahan kami dapat dilihat pada link berikut ini :
 {LINK}
 
-Suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami. Kami memohon maaf apabila tidak dapat mengirimkan undangan ini secara langsung karena adanya keterbatasan jarak dan waktu.
+Suatu kehormatan dan kebahagiaan bagi kami apabila Bapak/Ibu/Saudara/i berkenan hadir dan memberikan doa restu kepada kami.
 
-Atas waktu dan perhatiannya, kami ucapkan terima kasih.  
+Atas waktu dan perhatiannya, kami ucapkan terima kasih.
 
 Wassalamualaikum Wr. Wb.
 
 With Love,
-Stella & Faisal`;
+*Stella & Faisal*`;
 
 const generateName = () => {
   let weddingLink = "https://a.possiblewedding.com/faisal-stella/?u=";
